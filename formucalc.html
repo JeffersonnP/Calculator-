@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+    <link rel="stylesheet" href="formucalc.css">
+</head>
+<body>
+    <img src="/imgcalc/image-removebg-preview.png" id="imgcalc">
+
+
+
+<div class="formu">
+    <form class="list">
+        <input type="checkbox" id="bask_formu" >Equação 2° grau(Bhaskara)</input>
+        <input type="checkbox" id="pit_formu" >PITAGORAS</input>
+    
+    
+    </form>
+   
+
+<!-- <input type="cheklist" value="list" id="listf">
+ -->
+</div>
+    
+    
+
+<div class="calc" id="calc">
+    <form class="nums" id="nums" >
+    <input type="text" class="numa" id="numa" placeholder="Digite o numero A">
+    <br>
+    <br>
+    <input type="text" class="numb" id="numb" placeholder="Digite o numero B">
+    <br>
+    <br>
+    <input type="text" class="numc" id="numc" placeholder="Digite o numero C">
+
+    <button class="result" onclick="resultcli();return false"> RESULTADO de Delta</button>
+    <br>
+    <button class="resultb" onclick="resultclib();return false"> RESULTADO DE Bhaskara</button>
+  
+   
+    
+    
+    </form>
+    <img src="/imgcalc/Screenshot_1.jpg" alt="" class="imgbask">
+    <img src="/imgcalc/Screenshot_2.jpg" alt="" class="imgbask2">
+    
+</div>
+
+
+<div class="contenerresult"> 
+     
+    <h1>RESULTADO</h1>
+    <span class="apval"></span>
+    VALOR de Delta <span class="vdelt"> </span>
+    <br>
+
+    
+    <br>    
+    
+    <span class="apval"></span>
+    VALOR de Delta <span class="vdelt"> </span>
+  
+
+</div>
+
+
+
+
+
+    <script src="formucalc.js"></script>
+</body>
+</html>
